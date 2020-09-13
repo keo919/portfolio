@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+section
+{
+   
+    background:url(alucard.jpg);
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    justify-content: center;
+    position: relative;
+   
+
+}
+
+.box{
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.555);
+    box-shadow: 0 5px 15px rgba(1, 255, 200, 0.836) ;
+    overflow: hidden;
+    color: #000;
+    border-radius: 10px;
+}
+.box:before{
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background:rgba(rgba(240, 131, 8, 0.555));
+    background-attachment: fixed;
+    filter: blur(3px);
+}
+.box h2{
+    margin:0 0 20px;
+    position: relative;
+    padding: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: hsl(172, 93%, 43%);
+    z-index: 2;
+}
+.box p{
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+}
+
